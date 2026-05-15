@@ -20,8 +20,8 @@ docker build -t shodan-app .
 # Nota: En Jenkins, estas variables se configuran en el Job.
 echo "Running container..."
 docker run --name samplerunning \
-  -e SHODAN_API_KEY=\$SHODAN_API_KEY \
-  -e TARGET_IP=\$TARGET_IP \
+  -e SHODAN_API_KEY="$SHODAN_API_KEY" \
+  -e TARGET_IP="$TARGET_IP" \
   shodan-app
 
 # 4. Generar evidencias para el archivo output.txt (Requisito de la rúbrica)
