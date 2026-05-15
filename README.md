@@ -10,5 +10,3 @@ Esta herramienta está diseñada para Administradores de Redes, Analistas de Cib
 * **La Solución:** Esta aplicación resuelve la dificultad proporcionando una consulta automatizada, rápida y 100% pasiva (OSINT) utilizando la API de Shodan. Permite al usuario obtener un resumen claro en consola de la información crítica de la IP (Organización, Sistema Operativo, Puertos y Vulnerabilidades) de forma segura y estandarizada a través de contenedores Docker, facilitando la toma de decisiones o el aprendizaje sin tocar la infraestructura real del objetivo.
 
 
-export SHODAN_API_KEY="4do4Nd2M0ksAqqtlYRYMeaIDr2it5PcM"
-export TARGET_IP="8.8.8.8"
