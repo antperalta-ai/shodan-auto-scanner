@@ -20,6 +20,11 @@ Simplemente sobrescribes la variable en la memoria y vuelves a ejecutar tu autom
 
 Abre tu terminal.
 
+Solo tienes que borrar el contenedor viejo que quedó guardado de la ejecución anterior. Escribe esto en tu terminal:
+
+Bash
+docker rm -f samplerunning
+
 Exporta la nueva IP (por ejemplo, la de Cloudflare):
 
 Bash
