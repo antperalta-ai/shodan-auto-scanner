@@ -1,0 +1,14 @@
+--- ESTADO DEL CONTENEDOR (docker ps -a) ---
+CONTAINER ID   IMAGE        COMMAND           CREATED        STATUS                              PORTS     NAMES
+ac2c63c7d6b4   shodan-app   "python app.py"   1 second ago   Exited (0) Less than a second ago             samplerunning
+
+--- LOGS DE LA APLICACIÓN (Datos de API) ---
+[*] Iniciando escaneo OSINT automatizado para la IP: 8.8.8.8...
+
+--- RESULTADOS DEL ESCANEO ---
+1. Dirección IP    : 8.8.8.8
+2. Organización    : Google LLC
+3. Sistema Oper.   : None
+4. Puertos Abiertos: [443, 53]
+------------------------------
+
