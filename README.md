@@ -1,5 +1,8 @@
 # Shodan Recon Auto-Scanner 🔍
 
+Asignatura: Programación y Redes Virtualizadas (DRY7122)
+Antuan Peralta 
+
 ## Contexto y Narrativa del Proyecto
 
 **Stakeholders:**
